@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const config = require('../config');
 
-const caCertFilePath = 'C:/Users/Angie/Downloads/DigiCertGlobalRootCA.crt.pem';
+const caCertFilePath = './DigiCertGlobalRootCA.crt.pem';
 
 const dbconfig = {
   host: config.mysql.host,
